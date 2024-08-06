@@ -1,0 +1,24 @@
+# Chatbot for Mental Health Conversations
+
+## Overview
+Building chatbots capable of providing emotional support to individuals experiencing anxiety and depression is a significant focus in artificial intelligence. This dataset is designed to serve as the foundation for training models to understand and respond empathetically to user messages, aiming to emulate a therapist’s support.
+
+## Dataset Description
+The dataset is a comprehensive collection of conversations related to mental health, including:
+- Basic exchanges
+- Frequently asked questions about mental health
+- Classical therapy discussions
+- General advice for individuals facing anxiety and depression
+- Source : https://www.kaggle.com/datasets/elvis23/mental-health-conversational-data
+
+### Objective
+The primary goal of this dataset is to facilitate the training of a chatbot model that offers empathetic and supportive responses to those seeking emotional solace.
+## Intents and Responses
+To train the model effectively, the dataset incorporates the concept of "intents." Each intent represents the underlying purpose behind a user's message. For example, if a user expresses sadness, the associated intent would be "sad." Each intent is accompanied by:
+- **Patterns**: Example messages that align with the specific intent.
+- **Responses**: Corresponding replies that the chatbot should generate based on the intent.
+By defining multiple intents with their respective patterns and responses, the model learns to identify user intents and generate relevant and compassionate replies.
+
+## Usage
+Researchers and developers can use this dataset to train chatbot models for better understanding and supporting individuals coping with anxiety and depression. The goal is to create a virtual conversational agent that provides emotional guidance, helpful insights, and relief to those seeking mental health support.
+
